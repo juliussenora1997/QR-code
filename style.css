@@ -1,0 +1,37 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: hsl(212, 45%, 89%);
+	font-family: 'Outfit', sans-serif;
+}
+.wrapper{
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	place-items: center;
+}
+.container{
+	height: 400px;
+	width: 300px;
+	background-color: hsl(0, 0%, 100%);
+	padding: 10;
+	font-size: 15px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 0.5rem;
+}
+.container img{
+	border-radius: 0.5rem;
+}
+.p1{
+	font-weight: 700;
+}
+.p2{
+	font-weight: 400;
+}
+.p1 , .p2{
+	padding: 10px;
+}
